@@ -1,0 +1,122 @@
+body {
+    font-family: 'Courier New';
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f8e7e7;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+body {
+font-family: Arial, sans-serif;
+background: #f7f5ff;
+color: #000000;
+padding: 40px;
+}
+
+/* Tabela */
+table {
+width: 100%;
+border-collapse: separate;
+border-spacing: 0;
+background: white;
+border: 1px solid #d8cef5;
+border-radius: 16px;
+overflow: hidden;
+box-shadow: 0 8px 25px rgba(80, 50, 150, 0.08);
+}
+
+/* Células */
+td, th {
+padding: 24px;
+border-bottom: 1px solid #e5def7;
+border-right: 1px solid #e5def7;
+font-size: 18px;
+}
+
+/* Primeira coluna (números) */
+td:first-child,
+th:first-child {
+width: 80px;
+text-align: center;
+font-weight: bold;
+color: #000000;
+}
+
+/* Efeito nas linhas */
+tr:hover {
+background: #faf8ff;
+}
+
+/* Remove borda da última linha */
+tr:last-child td {
+border-bottom: none;
+}
+button,
+input[type="submit"] {
+margin-top: 25px;
+padding: 16px 35px;
+background: linear-gradient(135deg, #6d35d8, #3e208d);
+color: white;
+border: none;
+border-radius: 14px;
+font-size: 17px;
+font-weight: bold;
+cursor: pointer;
+box-shadow: 0 8px 18px #ffffff;
+transition: 0.3s;
+}
+
+/* Quando passa o mouse */
+button:hover,
+input[type="submit"]:hover {
+transform: translateY(-3px);
+box-shadow: 0 12px 25px #fdfcfd59;
+background: linear-gradient(135deg, #7c4ce3, #4b2995);
+}
